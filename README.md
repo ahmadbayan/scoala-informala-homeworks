@@ -1,3 +1,3 @@
 # scoala-informala-homeworks
 
-Ahmad Bayan
+Ahmad Bayan - exercise
