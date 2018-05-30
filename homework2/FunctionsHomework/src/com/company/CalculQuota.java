@@ -2,10 +2,10 @@ package com.company;
 
 public class CalculQuota {
 
-    public void CalculQuota(String Salesman[], float Quota[], float NrOfSales[], float SaleQuota[])
+    public void calculQuota(String salesman[], float quota[], float nrOfSales[], float saleQuota[])
     {
         int k=0;
-        for(int i=0;i<NrOfSales.length;i++)
-            Quota[k++]=NrOfSales[i]*SaleQuota[i];
+        for(int i=0;i<nrOfSales.length;i++)
+            quota[k++]=nrOfSales[i]*saleQuota[i];
     }
 }

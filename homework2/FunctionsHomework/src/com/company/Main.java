@@ -4,19 +4,19 @@ public class Main {
 
     public static void main(String[] args) {
 
-        float NrOfSales[] = new float[]{20, 21, 20, 12, 18};
-        float SaleQuota[] = new float[]{3, 4, 2, 2, 1};
-        String[] Salesman = {"Alex", "Paul", "Gigi", "Doru", "Nistor"};
-        float Quota[]=new float[6];
+        float nrOfSales[] = new float[]{20, 21, 20, 12, 18};
+        float saleQuota[] = new float[]{3, 4, 2, 2, 1};
+        String[] salesman = {"Alex", "Paul", "Gigi", "Doru", "Nistor"};
+        float quota[]=new float[6];
 
         CalculQuota f=new CalculQuota();
         BubbleSort f2=new BubbleSort();
 
-        f.CalculQuota(Salesman,Quota,NrOfSales,SaleQuota);
-        f2.BubbleSort(Salesman,NrOfSales,Quota);
+        f.calculQuota(salesman,quota,nrOfSales,saleQuota);
+        f2.bubbleSort(salesman,nrOfSales,quota);
 
-        for(int i=0;i<NrOfSales.length;i++)
-            System.out.println(Salesman[i] + " are o cota de " + Quota[i]+".");
+        for(int i=0;i<nrOfSales.length;i++)
+            System.out.println(salesman[i] + " are o cota de " + quota[i]+".");
 
     }
 
